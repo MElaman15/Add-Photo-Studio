@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD Photo - Фотостудия</title>
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style2.css">
+    <link rel="stylesheet" href="./styles/style3.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./media/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+
+    <div id="header">
+        <span class="sp_anim"></span>
+        <span class="sp_anim"></span>
+        <span class="sp_anim"></span>
+        <span class="sp_anim"></span>
+        <div class="item">
+            <img src="./images/logo.svg" alt="Logo">
+        </div>
+
+        <div class="item an">
+            <span class="sp_anim"></span>
+            <span class="sp_anim"></span>
+            <span class="sp_anim"></span>
+            <span class="sp_anim"></span>
+            <span class="sp_an"></span>
+            <a class="anim" href="#partfolio">Портфолио</a>
+            <a class="anim" href="#works-types">Виды работ</a>
+            <a class="anim" href="#about_us">О фотостудии</a>
+            <a class="anim" href="#pricing">Услуги и цены</a>
+            <a class="anim" href="#contact">Контакты</a>
+        </div>
+
+        <div class="mb__header">
+            <div class="ln">
+                <div class="line fr"></div>
+                <div class="line cn"></div>
+                <div class="line end"></div>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <button>
+                ОБРАТНЫЙ ЗВОНОК
+            </button>
+
+            <span class="fw600">+7 (499) 344 60 91</span>
+        </div>
+    </div>
+
+    <div class="mb__menu">
+        <div class="links">
+            <a class="anim wow" href="#" style="--delay: 0;" data-wow-delay="0.25s">Портфолио</a>
+            <a class="anim wow" href="#works-types" style="--delay: 0.1s;" data-wow-delay="0.35s">Виды работ</a>
+            <a class="anim wow" href="#about_us" style="--delay: 0.2s;" data-wow-delay="0.45s">О фотостудии</a>
+            <a class="anim wow" href="#pricing" style="--delay: 0.3s;" data-wow-delay="0.55s">Услуги и цены</a>
+            <a class="anim wow" href="#contact" style="--delay: 0.4s;" data-wow-delay="0.65s">Контакты</a>
+        </div>
+    </div>
+
+    <section class="main">
+        <p class="title fw700">Профессиональная фотосессия в студии</p>
+        <p class="des fw600">Наша фотостудия позволит исполнить ваши мечты</p>
+
+        <p class="info fw500">
+            Фотографии стали неотъемлемой частью нашей жизни. Это теперь не просто памятные снимки в альбомах, ныне фото
+            становиться способом понравиться окружающим, получить восхищение, заявить о себе всему миру.
+            Выбор правильной фотостудии занимает далеко не последнее место в получение фотографий. И мы с точностью
+            заявляем, что нашей фотостудией вы останетесь довольны
+            и еще не раз захотите возвращаться к нам.
+        </p>
+
+        <button class="fw600 act_btn">Получить консультацию</button>
+    </section>
+
+    <div class="_form">
+
+        <div class="box">
+
+            <div class="quiz">
+                <p class="title fw600 white">Форма обратной связи</p>
+
+                <form>
+                    <label for="name" class="fw500 white">Имя</label>
+                    <input type="text" name="name" class="fw500" id="name" placeholder="Введите ваше имя" required>
+
+                    <label for="email" class="fw500 white">E-mail</label>
+                    <input type="email" name="email" class="fw500" id="email" placeholder="Введите ваш E-mail" required>
+
+                    <label for="phone" class="fw500 white">Телефон</label>
+                    <input type="number" name="phone_number" class="fw500" id="phone" placeholder="Введите ваше Телефон"
+                        required>
+                    <button class="send_btn fw600">Отправить</button>
+                </form>
+
+
+                <p class="privacy_txt white">Нажимая кнопку «Отправить», вы даете согласие на обработку персональных
+                    данных и
+                    соглашаетесь с <span class="fw500 underline">политикой конфиденциальности</span></p>
+            </div>
+        </div>
+        <i class="fa-solid fa-circle-xmark close fa-3x"></i>
+
+        <div class="success box white animate__animated none">
+            <p class="fw600 mt">Благодарим за оставленную заявку!</p>
+            <p class="fw500 mt">Наши специалисты уже обрабатывают Вашу заявку и свяжутся с Вами в ближайшее время</p>
+
+            <div class="circle"></div>
+        </div>
+
+    </div>
+
+    <section id="swiper">
+        <div class="neon wow animate__animated animate__flipInX" data-wow-duration="2s">
+            <p class="title fw600 zag">
+                <span style="--i: 0.1;">Н</span><span style="--i: 0.2;">а</span><span style="--i: 0.3;">ш</span><span
+                    style="--i: 0.4;">и</span> <span style="--i: 0.5;">р</span><span style="--i: 0.6;">а</span><span
+                    style="--i: 0.7;">б</span><span style="--i: 0.8;">о</span><span style="--i: 0.9;">т</span><span
+                    style="--i: 1;">ы</span>
+            </p>
+        </div>
+
+
+
+        <div class="swiper sw1">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img class="anim"
+                        src="https://images.unsplash.com/photo-1676365743910-35ba5be051b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        alt="Swiper photo">
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="anim"
+                        src="https://images.unsplash.com/photo-1676113415510-3a631c9e1b5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+                        alt="Swiper photo">
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="anim"
+                        src="https://images.unsplash.com/photo-1675851566725-efc9457594fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        alt="Swiper photo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="anim"
+                        src="https://images.unsplash.com/photo-1675573206424-36f844f7627a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="Swiper photo">
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="anim"
+                        src="https://images.unsplash.com/photo-1671483330944-36bbbe090e8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="Swiper photo">
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="anim"
+                        src="https://images.unsplash.com/photo-1662101758500-b67cf39fe13b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        alt="Swiper photo">
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+
+        <div class="our_locations">
+            <div class="neon wow animate__animated animate__flipInX animate__delay-1s" data-wow-duration="1s">
+                <p class="title fw600 zag">
+                    <span style="--i: 0.1;">Н</span><span style="--i: 0.2;">а</span><span
+                        style="--i: 0.3;">ш</span><span style="--i: 0.4;">и</span> <span style="--i: 0.5;">л</span><span
+                        style="--i: 0.6;">о</span><span style="--i: 0.7;">к</span><span style="--i: 0.8;">а</span><span
+                        style="--i: 0.9;">ц</span><span style="--i: 1;">и</span><span style="--i: 1.1;">и</span>
+                </p>
+            </div>
+
+            <div class="swiper sw2 wow animate__animated animate__bounceInUp" data-wow-duration="1.5s"
+                data-wow-duration="1.5s">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img class="anim" src="./images/l1.png" alt="Slide 1">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="anim" src="./images/l2.png" alt="Slide 2">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="anim" src="./images/l3.png" alt="Slide 3">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="anim" src="./images/l1.png" alt="Slide 4">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="anim" src="./images/l2.png" alt="Slide 5">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="anim" src="./images/l3.png" alt="Slide 6">
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="select_loc">
+                <button class="btn fw600">
+                    Выбрать локацию
+                </button>
+            </div>
+        </div>
+
+        <div class="form_select_loc animate__animated">
+
+            <div class="box">
+                <div class="form_box">
+                    <p class="title fw600">Форма выбора локации</p>
+                    <br>
+
+                    <form>
+                        <label class="fw600" for="user_name">Имя</label>
+                        <input class="fw600" id="user_name" type="text" name="name" placeholder="Введите ваше имя"
+                            required>
+
+                        <label class="fw600" for="user_email">E-mail</label>
+                        <input class="fw600" id="user_email" type="email" name="email" placeholder="Введите ваш E-mail"
+                            required>
+
+                        <label class="fw600" for="user_phone_number">Телефон</label>
+                        <input class="fw600" id="user_phone_number" type="number" name="phone_number"
+                            placeholder="Введите ваше Телефон" required>
+
+                        <label class="fw600">Локация</label>
+                        <select class="fw500" style="display: block;" name="locations">
+                            <option value="Локация 1">Локация 1</option>
+                            <option value="Локация 2">Локация 2</option>
+                            <option value="Локация 3">Локация 3</option>
+                            <option value="Локация 4">Локация 4</option>
+                            <option value="Локация 5">Локация 5</option>
+                            <option value="Локация 6">Локация 6</option>
+                        </select>
+
+                        <button class="send_loc_btn fw600">Отправить</button>
+                    </form>
+                </div>
+
+            </div>
+            <i class="fa-solid fa-circle-xmark close fa-3x hide"></i>
+        </div>
+
+    </section>
+
+
+    <div class="services" id="works-types">
+        <div class="neon wow animate__animated animate__flipInX" data-wow-duration="3s">
+            <p class="title fw600 zag">
+                <span style="--i: 0.1;">В</span><span style="--i: 0.2;">и</span><span style="--i: 0.3;">д</span><span
+                    style="--i: 0.4;">ы</span> <span style="--i: 0.5;">у</span><span style="--i: 0.6;">с</span><span
+                    style="--i: 0.7;">л</span><span style="--i: 0.8;">у</span><span style="--i: 0.9;">г</span>
+            </p>
+        </div>
+
+        <div class="container">
+
+            <div class="item item_1 img_hd wow animate__animated animate__bounceInLeft" data-wow-duration="2s"></div>
+            <div class="item item_2 img_hd wow animate__animated animate__fadeIn" data-wow-duration="2s"></div>
+            <div class="item item_3 img_hd wow animate__animated animate__bounceInRight" data-wow-duration="2s"></div>
+            <div class="item item_4 img_hd wow animate__animated animate__bounceInLeft" data-wow-duration="2s"></div>
+            <div class="item item_5 img_hd wow animate__animated animate__bounceInRight" data-wow-duration="2s"></div>
+            <div class="item item_6 img_hd wow animate__animated animate__fadeIn" data-wow-duration="2s"></div>
+            <div class="item item_7 img_hd wow animate__animated animate__bounceInRight" data-wow-duration="2s"></div>
+            <div class="item item_8 img_hd wow animate__animated animate__bounceInLeft" data-wow-duration="2s"></div>
+            <div class="item item_9 img_hd wow animate__animated animate__bounceInLeft" data-wow-duration="2s"></div>
+            <div class="item item_10 img_hd wow animate__animated animate__fadeIn"></div>
+            <div class="item item_11 img_hd wow animate__animated animate__bounceInRight"></div>
+        </div>
+
+
+        <div class="work_stages">
+            <div class="neon wow animate__animated animate__flipInX" data-wow-duration="3s">
+                <p class="title fw600">
+                    <span style="--i: 0.1;">Э</span><span style="--i: 0.2;">т</span><span
+                        style="--i: 0.3;">а</span><span style="--i: 0.4;">п</span><span style="--i: 0.5;">ы</span> <span
+                        style="--i: 0.7;">р</span><span style="--i: 0.8;">а</span><span style="--i: 0.9;">б</span><span
+                        style="--i: 1;">о</span><span style="--i: 1.1;">т</span>
+                </p>
+            </div>
+
+            <div class="pos">
+
+                <div class="box" style="position: relative;">
+
+                    <div class="item wow animate__animated animate__jackInTheBox " data-wow-duration="1.35s">
+                        <p class="fw600">Заявка</p>
+                        <p class="fw500" style="margin-top: 10px; position: relative; --t: '1';">Съешь еще этих мягких
+                            французских булок, да выпей
+                            чаю. Съешь еще этих мягких.</p>
+                    </div>
+
+                    <div class="item item1 wow animate__animated animate__jackInTheBox " data-wow-duration="1.35s">
+                        <p class="fw600">Бронь</p>
+                        <p class="fw500" style="margin-top: 10px; position: relative; --t: '2';">Съешь еще этих мягких
+                            французских булок, да выпей
+                            чаю. Съешь еще этих мягких.</p>
+                    </div>
+
+                    <div class="item wow animate__animated animate__jackInTheBox " data-wow-duration="1.35s">
+                        <p class="fw600">Составление
+                            Технического задания</p>
+                        <p class="fw500" style="margin-top: 10px; position: relative; --t: '3';">Съешь еще этих мягких
+                            французских булок, да выпей
+                            чаю. Съешь еще этих мягких.</p>
+                    </div>
+
+                    <div class="item wow animate__animated animate__jackInTheBox " data-wow-duration="1.35s">
+                        <p class="fw600">Съёмка</p>
+                        <p class="fw500" style="margin-top: 10px; position: relative; --t: '4';">Съешь еще этих мягких
+                            французских булок, да выпей
+                            чаю. Съешь еще этих мягких.</p>
+                    </div>
+
+
+                    <div class="item wow animate__animated animate__jackInTheBox " data-wow-duration="1.35s">
+                        <p class="fw600">Готовые фото</p>
+                        <p class="fw500" style="margin-top: 10px; position: relative; --t: '5';">Съешь еще этих мягких
+                            французских булок, да выпей
+                            чаю. Съешь еще этих мягких.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <section class="info" id="about_us">
+        <div class="reflect neon wow animate__animated animate__flipInX" data-wow-duration="3s">
+            <p class="title fw600 sl">
+                <span style="--i: 0.1;">Ф</span><span style="--i: 0.2;">о</span><span style="--i: 0.3;">т</span><span
+                    style="--i: 0.4;">о</span><span style="--i: 0.5;">с</span><span style="--i: 0.6;">т</span><span
+                    style="--i: 0.7;">у</span><span style="--i: 0.8;">д</span><span style="--i: 0.9;">и</span><span
+                    style="--i: 1;">я</span> <span style="--i: 1.1;">д</span><span style="--i: 1.2;">л</span><span
+                    style="--i: 1.3;">я</span> <span style="--i: 1.4;">л</span><span style="--i: 1.5;">ю</span><span
+                    style="--i: 1.6;">б</span><span style="--i: 1.7;">ы</span><span style="--i: 1.8;">х</span> <span
+                    style="--i: 1.9;">и</span><span style="--i: 2;">д</span><span style="--i: 2.1;">е</span><span
+                    style="--i: 2.2;">й</span><span style="--i: 2.3;">н</span><span style="--i: 2.4;">ы</span><span
+                    style="--i: 2.5;">х</span> <span style="--i: 2.6;">ф</span><span style="--i: 2.7;">о</span><span
+                    style="--i: 2.8;">т</span><span style="--i: 2.9;">о</span><span style="--i: 3;">с</span><span
+                    style="--i: 3.1;">с</span><span style="--i: 3.2;">е</span><span style="--i: 3.3;">с</span><span
+                    style="--i: 3.4;">и</span><span style="--i: 3.5;">й</span>
+            </p>
+        </div>
+
+        <div class="some_txt">
+            <p>Воплотите мечту с нашей фотостудией и приобретите красивые, уникальные, качественные фотографии,
+                выбрав
+                один из наших залов. А их, -на секундочку, -аж семь штук.</p>
+
+            <p>Каждый наш зал оборудован интерьером и профессиональным оборудованием, и подойдет для любой
+                фотоссесии, а
+                мы хотим рассказать вам о все подробнее.</p>
+
+            <p class="mtb20">Какие идеи можно воплотить?</p>
+
+            <p class="mtb20">•Фотоссесия Love Story</p>
+
+            <p class="s-txt">Мечтаете показать всему миру вашу историю создания любви или хранить снимки в памятном
+                альбоме...
+            </p>
+
+            <div class="more_txt none">
+                <p class="mtb20">• Семейная фотоссесия</p>
+                <p>Семья — это самое главное в жизни любого человека. Хотите повесить фотографии в вашем уютном
+                    доме,
+                    смотреть на них и испытывать прилив нежности, значит семейная фотоссесия в нашей фотостудии
+                    станет
+                    отличным вариантом.</p>
+
+                <p class="mtb20">• Фотоссесия для беременных девушек</p>
+                <p>Желаете сохранить воспоминания о прекрасном времени в жизни каждой женщины? Наши локации помогут
+                    вам
+                    организовать и воссоздать в фотографиях любовь матери и еще не родившегося ребенка.</p>
+
+                <p class="mtb20">• Фотоссесия «Деловой стиль».</p>
+                <p>Вы не из тех, кто любит яркие чувства, эмоции и считаете себя сдержанным. Вам нужны фотографии,
+                    где
+                    вы раскроетесь как профессионал, произведете впечатление как деловой человек. Эта фотоссесия
+                    станет
+                    вашим правильным решением.</p>
+
+                <p class="mtb20">• Фотоссесия для девушек и парней.</p>
+                <p class="mtb20">Хочешь стать кем-то другим? Или, наоборот, показать свое «я»? Фотоссесия
+                    для девушек или парней поможет воплотить любые идеи.</p>
+                <p class="mtb20">Помимо вышеперечисленного есть и другие стили фотоссесий. Вы самостоятельно
+                    выбираете,
+                    а наши фотозалы помогают вам и вдохновляют.</p>
+
+                <p class="mtb20">Кстати, о них...</p>
+
+                <p>Все семь фото локаций уникальные в своем роде. Мы пытались воссоздать непохожесть на другие
+                    фотостудии не только в городе, но и во всей стране. Каждый зал отличается от других по
+                    дизайнерскому
+                    решению и интерьеру. И каждый зал пропитан своим духом, стилем и видится для каждого нашего
+                    посетителя по-разному. Светлые помещения помогут получить более качественные, яркие фотоснимки.
+                    Трендовая мебель и другие предметы интерьера можно двигать и активно использовать в фотосъемках.
+                    Локации подойдут для любых людей и задач: блогеров и медийных личностей, обычных и счастливых
+                    семей,
+                    предпринимателей и подростков. Что еще нужно знать о нас?</p>
+
+                <p class="mtb20">Оборудование. Неотъемлемая часть любой фотостудии и нередко владельцы фотостудий
+                    экономят на этой важной части. Мы используем все оборудование только от профессиональных
+                    продавцов,
+                    которые уже не один год предлагают свои товары на мировом рынке. Вы найдете все что нужно и
+                    необходимо для работы фотографов, для создания образов и света. Ведь именно от оборудования
+                    часто
+                    зависит качество получающихся фотоснимков.</p>
+            </div>
+        </div>
+
+
+        <div class="m-in_btn fw600" data-hide="true">
+            <span>Подробнее</span>
+        </div>
+
+    </section>
+
+
+    <div class="price_container" id="pricing">
+        <div class="neon wow animate__animated animate__flipInX" data-wow-duration="3s">
+            <p class="title fw600">
+                <span style="--i: 0.1;">С</span><span style="--i: 0.2;">т</span><span style="--i: 0.3;">о</span><span
+                    style="--i: 0.4;">и</span><span style="--i: 0.5;">м</span><span style="--i: 0.6;">о</span><span
+                    style="--i: 0.7;">с</span><span style="--i: 0.8;">т</span><span style="--i: 0.9;">ь</span> <span
+                    style="--i: 1;">ф</span><span style="--i: 1.1;">о</span><span style="--i: 1.2;">т</span><span
+                    style="--i: 1.3;">о</span><span style="--i: 1.4;">с</span><span style="--i: 1.5;">е</span><span
+                    style="--i: 1.6;">с</span><span style="--i: 1.7;">и</span><span style="--i: 1.8;">и</span>
+            </p>
+        </div>
+
+        <div class="carts">
+
+            <div class="item cen">
+                <p class="perk fw600">Mini</p>
+
+                <span class="price fw700" data-price="2500">2500</span>
+                <span class="symbol fw700">&#8381;</span>
+                <p class="g_loc">/ 1 локация</p>
+
+                <div class="box mtb20 fw500">
+                    <p>Длительность — 30 минут</p>
+                    <p>Исходники — До 100 штук</p>
+                    <p>Ретушь — 4 фото</p>
+                    <p>Аренда фотостудии — Бесплатно</p>
+                    <p>Любой образ</p>
+                </div>
+
+                <p class="fw600 dop" style="text-align: center;">Дополнительные услуги</p>
+                <div class="additional_services">
+                    <button class="help_massage">Помощь в позировании</button>
+                    <button class="visagiste_btn" data-buy="false">Визажист + 2000 ₽</button>
+                    <button class="retouch_btn" data-id="0">Дополнительная ретушь фото — 1 шт. / 250 ₽</button>
+                </div>
+
+                <div class="reservation_btn fw600" role="button" style="display: flex;justify-content: center;"
+                    data-buy="false">
+                    ЗАБРОНИРОВАТЬ</div>
+            </div>
+
+            <div class="item cen">
+                <p class="perk fw600">Standart</p>
+                <span class="price fw700" data-price="5000">5000</span>
+                <span class="symbol fw700">&#8381;</span>
+                <p class="g_loc">/ 1 локация</p>
+
+                <div class="box mtb20 fw500">
+                    <p>Длительность — 1час 20 минут</p>
+                    <p>Исходники — До 200 штук</p>
+                    <p>Ретушь — 8 фото</p>
+                    <p>Аренда фотостудии — Бесплатно</p>
+                    <p>Любой образ</p>
+                </div>
+
+                <p class="fw600 dop" style="text-align: center;">Дополнительные услуги</p>
+                <div class="additional_services">
+                    <button class="help_massage">Помощь в позировании</button>
+                    <button class="visagiste_btn" data-buy="false">Визажист + 2000 ₽</button>
+                    <button class="retouch_btn" data-id="1">Дополнительная ретушь фото — 1 шт. / 250 ₽</button>
+                </div>
+
+                <div class="reservation_btn fw600" role="button" style="display: flex;justify-content: center;"
+                    data-buy="false">
+                    ЗАБРОНИРОВАТЬ</div>
+            </div>
+
+            <div class="item kon">
+                <p class="perk fw600">maxi</p>
+                <p class="price fw700">N <span>&#8381;</span> </p>
+                <p class="g_loc">/ Максимальное количество локаций</p>
+
+                <div class="box mtb20 fw500">
+                    <p>Длительность — 4 часа</p>
+                    <p>Исходники — До 500 штук</p>
+                    <p>Ретушь — 50 фото</p>
+                    <p>Аренда фотостудии — Бесплатно</p>
+                    <p>Визажист - Make-Up, Укладка</p>
+                    <p>Предварительный подбор образов - До 8 образов</p>
+                </div>
+                <p class="fw600 dop" style="text-align: center;">Дополнительные услуги</p>
+                <div class="visagiste_btn none" data-buy="true"></div>
+                <div class="additional_services">
+                    <button class="retouch_btn" data-id="2">Дополнительная ретушь фото — 1 шт. / 250 ₽</button>
+                </div>
+
+                <div class="reservation_btn fw600" role="button" style="display: flex;justify-content: center;"
+                    data-buy="false">
+                    ЗАБРОНИРОВАТЬ</div>
+            </div>
+
+        </div>
+
+        <div class="retouch_wrapper animate__animated white none" data-wow-delay="0.5s">
+            <p class="title fw600">Дополнительная ретушь фото</p>
+
+            <div class="count mt">
+                <label for="c" class="db">Количество</label>
+                <input type="number" id="c" class="fw600" placeholder="Введите количество фото для ретуши">
+            </div>
+
+            <button class="save fw600">сохранить</button>
+        </div>
+    </div>
+
+
+    <section class="info">
+
+        <div class="neon pd wow animate__animated animate__flipInX" data-wow-duration="3s">
+            <p class="title fw600 tl">
+                <span style="--i: 0.1;">Ф</span><span style="--i: 0.2;">о</span><span style="--i: 0.3;">т</span><span
+                    style="--i: 0.4;">о</span><span style="--i: 0.5;">и</span><span style="--i: 0.6;">с</span><span
+                    style="--i: 0.7;">к</span><span style="--i: 0.8;">у</span><span style="--i: 0.9;">с</span><span
+                    style="--i: 1;">с</span><span style="--i: 1.1;">т</span><span style="--i: 1.2;">в</span><span
+                    style="--i: 1.3;">о</span> <span style="--i: 1.4;">в</span>
+                <span style="--i: 1.5;">т</span><span style="--i: 1.6;">р</span><span style="--i: 1.7;">е</span><span
+                    style="--i: 1.8;">н</span><span style="--i: 1.9;">д</span><span style="--i: 2;">е</span>
+            </p>
+        </div>
+
+        <div class="some_txt">
+            <p>Мы искренни так считаем и готовы кричать эту фразу на весь мир. Фотографии давно перестали пылиться
+                на
+                полках в семейных, потрёпанных альбомах.</p>
+
+            <p class="mtb20">Хотите самовыразиться и не знаете как? Позвоните нам и закажите фотосъемку. Хотите
+                удивить
+                и впечатлить? Мы вам поможем. Не уверены? Посмотрите отзывы и проконсультируйтесь. Боитесь
+                фотографироваться? Наши локации помогут вам расслабиться и почувствовать себя как дома.</p>
+
+            <p class="mtb20">Доступные цены для всех и вежливость.</p>
+
+            <p class="s-txt">Повторим еще раз: мы работаем в первую очередь для клиентов, и аренда нашей фотостудии
+                имеют цены семи...
+            </p>
+
+            <div class="more_txt none">
+                <p class="mtb20">Вежливость тоже относиться к главным нашим качествам. У нас вы не найдете ужасного
+                    обращения, мы всегда готовы ответить вам и проконсультировать, помочь и стать вашими друзьями.
+                    Все
+                    наши работники улыбчивы и приветливы вам, которые не оставят вам плохого настроения</p>
+
+                <p>В каждом городе есть хотя бы несколько фотостудий и часто поход туда, становиться чуть ли не
+                    традицией семьи, пар или друзей. Тренд на истории в фотографиях для социальных сетей, где мы
+                    проводим много времени, не угасал и не угаснет никогда. Фотоссесия лав стори или семейная
+                    привлекает
+                    внимание всех людей и, доказано, набирает больше всего одобрений со стороны людей всего мира.
+                    Для
+                    качественного исполнения вашей мечты стоит обращаться к профессионалу и выбирать интересные
+                    локации.
+                </p>
+
+                <p class="mtb20">Наша фотостудия предлагает и то, и то. Профессиональный фотограф сможет сделать
+                    качественные, интересные фотографии, помочь вам воплотить вашу идею в жизнь в уютных залах
+                    фотостудии.
+                </p>
+
+                <p>На ваш выбор у нас есть 7 фотозалов, каждый из которых прекрасен и индивидуален по-своему. В
+                    больших
+                    залах отлично будет смотреться групповая фотосессия, а в залах меньше получиться интересная
+                    фотоссесия в деловом стиле.</p>
+
+                <p class="mtb20">Мы работаем в первую очередь на качество, поэтому наши цены не завышенные и
+                    доступны
+                    всем желающим. У нас есть различные и удобные способы оплаты для вас.
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="m-in_btn m2-in fw600" data-hide="true">
+            <span>Подробнее</span>
+        </div>
+    </section>
+
+    <div class="gift_wrapper">
+        <div class="neon wow animate__animated animate__flipInX title" data-wow-duration="3s">
+            <p class="title fw600 long">
+                <span style="--i: 0.1;">П</span><span style="--i: 0.2;">о</span><span style="--i: 0.3;">д</span><span
+                    style="--i: 0.4;">а</span><span style="--i: 0.5;">р</span><span style="--i: 0.6;">о</span><span
+                    style="--i: 0.7;">ч</span><span style="--i: 0.8;">н</span><span style="--i: 0.9;">ы</span><span
+                    style="--i: 1;">й</span> <span style="--i: 1.1;">с</span><span style="--i: 1.2;">е</span><span
+                    style="--i: 1.3;">р</span><span style="--i: 1.4;">т</span><span style="--i: 1.5;">и</span><span
+                    style="--i: 1.6;">ф</span><span style="--i: 1.7;">и</span><span style="--i: 1.8;">к</span><span
+                    style="--i: 1.9;">а</span><span style="--i: 1.9;">т</span> <span class="letter_hide"
+                    style="--i: 2;">н</span><span style="--i: 2.1;" class="letter_hide">а</span>
+                <span class="letter_hide" style="--i: 2.2;">ф</span><span class="letter_hide"
+                    style="--i: 2.3;">о</span><span style="--i: 2.4;" class="letter_hide">т</span><span
+                    class="letter_hide" style="--i: 2.5;">о</span><span class="letter_hide"
+                    style="--i: 2.6;">с</span><span style="--i: 2.7;" class="letter_hide">е</span><span
+                    class="letter_hide" style="--i: 2.8;">с</span><span class="letter_hide"
+                    style="--i: 2.9;">с</span><span style="--i: 3;" class="letter_hide">и</span><span
+                    class="letter_hide" style="--i: 3.1;">ю</span>
+            </p>
+        </div>
+
+        <div class="box">
+            <div class="right">
+                <p class="fw500">СЕРТИФИКАТ НА ФОТОСЕССИЮ</p>
+                <p class="fw600 info1">Это подарок, который западает в
+                    душу</p>
+
+                <p class="fw600 info finf">Креативное оформление</p>
+                <p class="fw600 info mtb20">Открытый календарь</p>
+                <p class="fw600 info">Всё включено</p>
+            </div>
+
+            <div class="left">
+                <img src="./images/convert.png" alt="Convert">
+
+                <div class="btm">
+                    <p class="fw500 white">Срок действия сертификата: 2 месяца со дня приобретения.
+                    </p>
+                    <button class="fw600 buy mtb20">Приобрести</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews_conatiner">
+        <div class="neon wow animate__animated animate__flipInX white com" data-wow-duration="3s">
+            <p class="title fw600">
+                <span style="--i: 0.1;">О</span><span style="--i: 0.2;">т</span><span style="--i: 0.3;">з</span><span
+                    style="--i: 0.4;">ы</span><span style="--i: 0.5;">в</span><span style="--i: 0.6;">ы</span>
+            </p>
+        </div>
+
+        <div class="box">
+            <div class="swiper sw3 wow animate__animated animate__bounceInUp" data-wow-duration="1.5s"
+                data-wow-duration="1.5s">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="https://images.unsplash.com/photo-1583864697784-a0efc8379f70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+                                alt="Person">
+                            <p class="name fw600 mtb20 white">Дима</p>
+                            <p class="comment fw500 white">Съешь еще этих мягких французских булок, да выпей чаю. Съешь
+                                еще
+                                этих
+                                мягких
+                                французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="./images/p1.png" alt="Person">
+                            <p class="name fw600 mtb20 white">Сергей</p>
+                            <p class="comment fw500 white">Съешь еще этих мягких французских булок, да выпей чаю. Съешь
+                                еще
+                                этих
+                                мягких
+                                французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="./images/p2.png" alt="Person">
+                            <p class="name fw600 mtb20 white">Руслан</p>
+                            <p class="comment fw500 white">Съешь еще этих мягких французских булок, да выпей чаю. Съешь
+                                еще
+                                этих
+                                мягких
+                                французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                alt="Person">
+                            <p class="name fw600 mtb20 white">Владилен</p>
+                            <p class="comment fw500 white">Съешь еще этих мягких французских булок, да выпей чаю. Съеш
+                                еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских
+                                булок, да выпей чаю.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="footer" id="contact">
+        <div class="mb__footer">
+            <div id="left" class="fld">
+                <a href="#" class="fw700 white">Портфолио</a>
+                <a href="#" class="fw700 white mtb20">Виды работ</a>
+                <a href="#" class="fw700 white">О фотостудии</a>
+            </div>
+
+            <div id="right" class="fld">
+                <a href="#" class="fw700 white">Услуги и цены</a>
+                <a href="#" class="fw700 white mtb20">Отзывы</a>
+                <a href="#" class="fw700 white">Контакты</a>
+            </div>
+        </div>
+
+        <div class="top">
+            <div class="logo"></div>
+
+            <div class="right">
+                <a href="#" class="fw700 white">Портфолио</a>
+                <a href="#" class="fw700 white">Виды работ</a>
+                <a href="#" class="fw700 white">О фотостудии</a>
+                <a href="#" class="fw700 white">Услуги и цены</a>
+                <a href="#" class="fw700 white">Отзывы</a>
+                <a href="#" class="fw700 white">Контакты</a>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="bottom">
+            <span class="fw500 white">Наши социцальные сети:</span>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-facebook-f fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-telegram fa-2x"></i>
+        </div>
+    </section>
+
+    <audio src="./sounds/click.wav" class="none"></audio>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./scripts/math.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/clickSound.js"></script>
+    <script class="particleJs" src="./particle js/particles.js"></script>
+    <script class="particleJs" src="./particle js/app.js"></script>
+    <script src="./scripts/wow.min.js"></script>
+
+    <script>
+        const mb__header = document.querySelector('.mb__header');
+        const mb__lines = document.querySelectorAll('.mb__header div.line');
+        const mb__menu = document.querySelector('.mb__menu');
+        const mb__links = document.querySelectorAll('.mb__menu .links a');
+        let close = false;
+
+        const close_check = (element) => {
+            element.onclick = () => {
+                if (!close) {
+                    for (let i = 0; i < mb__lines.length; i++) {
+                        mb__lines[i].classList.add('paused')
+                    };
+
+                    for (let item of mb__links) {
+                        item.classList.add('animate__animated', 'animate__flipInX')
+                    }
+
+                    mb__lines[0].style.top = '-6px';
+
+                    mb__lines[1].style.top = '16px';
+                    mb__lines[1].style.transform = 'rotate(45deg)';
+
+                    mb__lines[2].style.top = '16px';
+                    mb__lines[2].style.transform = 'rotate(134deg)';
+
+                    mb__menu.style.left = '0';
+
+                    close = true;
+                } else {
+
+                    for (let i = 0; i < mb__lines.length; i++) {
+                        mb__lines[i].classList.remove('paused')
+                    };
+
+                    for (let item of mb__links) {
+                        item.classList.remove('animate__animated', 'animate__flipInX')
+                    }
+
+                    mb__lines[0].style.top = '0';
+
+                    mb__lines[1].style.top = '10px';
+                    mb__lines[1].style.transform = 'rotate(0deg)';
+
+                    mb__lines[2].style.top = '20px';
+                    mb__lines[2].style.transform = 'rotate(0deg)';
+
+                    mb__menu.style.left = '-100%'
+
+                    close = false;
+                }
+                clickSoundEff();
+            }
+        }
+
+        mb__header.onclick = () => close_check(mb__header)
+
+        for (let item of mb__links) {
+            item.onclick = () => {
+                close = true
+                close_check(item)
+
+                for (let i = 0; i < mb__lines.length; i++) {
+                    mb__lines[i].classList.remove('paused')
+                };
+                mb__menu.style.left = '-100%';
+                mb__lines[0].style.top = '0';
+
+                mb__lines[1].style.top = '10px';
+                mb__lines[1].style.transform = 'rotate(0deg)';
+
+                mb__lines[2].style.top = '20px';
+                mb__lines[2].style.transform = 'rotate(0deg)';
+            }
+        };
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

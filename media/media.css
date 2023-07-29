@@ -1,0 +1,3661 @@
+@media only screen and (max-width: 2250px) {
+    .mb__menu {
+        display: none;
+    }
+
+    #header {
+        padding: 50px 0;
+    }
+
+    #header img {
+        width: 220px;
+    }
+
+    #header .item.an {
+        position: relative;
+        overflow: hidden;
+        padding: 15px;
+    }
+
+    #header a {
+        font-size: 26px;
+        margin: 0 22px;
+    }
+
+    #header button {
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+
+    #header span {
+        font-size: 22px;
+    }
+
+    section.main {
+        margin-top: 125px;
+    }
+
+    section.main p.title {
+        width: 75%;
+        font-size: 5em;
+    }
+
+    section.main p.des {
+        font-size: 35px;
+        margin: 40px 0;
+        width: 50%;
+    }
+
+    section.main p.info {
+        width: 60%;
+        font-size: 20px;
+    }
+
+    section.main button {
+        margin-top: 70px;
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+
+    .mb__header {
+        display: none;
+    }
+
+    section#swiper {
+        padding: 110px 0;
+    }
+
+    section#swiper p.title,
+    .neon p.title {
+        font-size: 4.5em;
+    }
+
+    .sw1 img {
+        width: 580px;
+        height: 640px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        padding: 20px 30px;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 580px;
+        height: auto;
+    }
+
+    .our_locations .btn {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+
+    #swiper .our_locations {
+        margin-top: 220px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(3, 450px);
+        grid-auto-rows: 450px;
+        grid-gap: 60px;
+    }
+
+    .work_stages {
+        margin-top: 200px;
+    }
+
+
+    .services .work_stages .box .item {
+        width: 500px;
+        font-size: 24px;
+        padding: 30px 15px;
+    }
+
+    .services .work_stages .box .item p:nth-child(2)::after {
+        padding: 7px 27px;
+        font-size: 45px;
+    }
+
+    .services .work_stages .box {
+        padding: 50px 100px;
+    }
+
+    section.info {
+        margin-top: 300px;
+        padding: 70px 50px;
+    }
+
+    .reflect {
+        margin-bottom: 170px;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 24px;
+    }
+
+    .price_container .carts .item {
+        margin: 0 70px;
+        width: 500px;
+    }
+
+    .price_container .carts .item p.perk {
+        font-size: 22px;
+    }
+
+    .price_container .carts .item .price {
+        font-size: 3.5em;
+    }
+
+    .price_container .carts .item .g_loc {
+        font-size: 18px;
+    }
+
+    .price_container .carts .item .box p {
+        font-size: 20px;
+    }
+
+    .price_container .carts .item .box p::before {
+        top: 0;
+        left: -45px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .price_container .carts .box {
+        margin: 20px 0 20px 45px;
+    }
+
+    .price_container .carts p.dop {
+        font-size: 20px;
+    }
+
+    .price_container .carts .item .additional_services button {
+        font-size: 16px;
+    }
+
+    .price_container .carts .item .reservation_btn {
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+
+    .neon p.title.long {
+        font-size: 2em;
+    }
+
+    .gift_wrapper {
+        padding: 70px;
+    }
+
+    .gift_wrapper .left img {
+        width: 700px;
+    }
+
+    .gift_wrapper .box .btm {
+        width: auto;
+    }
+
+    .gift_wrapper .box .right p:first-child {
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #C1C1C1;
+    }
+
+    .gift_wrapper .box p.info1 {
+        font-size: 4.5em;
+        width: 850px;
+    }
+
+    .gift_wrapper .box p.info {
+        font-size: 24px;
+        margin-left: 30px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        width: 40px;
+        height: 40px;
+        left: -5.5%;
+        top: -5px;
+    }
+
+    .gift_wrapper .box .btm p {
+        font-size: 24px;
+    }
+
+    .gift_wrapper .box .btm button {
+        width: 450px;
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+
+    section.footer .top a {
+        font-size: 24px;
+        margin: 0 20px;
+    }
+
+    section.footer .top .logo {
+        width: 250px;
+        height: 250px;
+    }
+
+    section.footer .line {
+        height: 5px;
+    }
+
+    section.footer .bottom span {
+        font-size: 24px;
+    }
+
+    .fa-2x {
+        font-size: 3em;
+    }
+
+    section.footer .bottom {
+        width: 700px;
+        justify-content: space-evenly;
+    }
+
+    .mb__footer {
+        display: none;
+    }
+
+    .reviews_conatiner .box img {
+        width: 300px;
+        height: 300px;
+    }
+
+    p.comment {
+        font-size: 20px;
+    }
+
+    ._form .box .quiz {
+        padding: 30px;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 45px;
+        margin: 30px 0;
+    }
+
+    ._form .box .quiz form label,
+    #swiper .form_select_loc .box .form_box label {
+        font-size: 20px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input,
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select {
+        width: 500px;
+        height: auto;
+        padding: 20px;
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .fa-3x {
+        font-size: 5.5em;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    ._form .box .quiz .send_btn,
+    #swiper .form_select_loc .box .form_box button {
+        width: 500px;
+        font-size: 22px;
+    }
+
+    #swiper .form_select_loc .box {
+        width: 60%;
+    }
+
+    ._form .box.success {
+        width: 800px;
+    }
+
+    ._form .box.success p:nth-child(2) {
+        font-size: 20px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 3.5em;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 35%;
+    }
+}
+
+@media only screen and (max-height: 1100px) {
+    section#swiper {
+        margin-top: 240px;
+    }
+}
+
+@media only screen and (max-height: 900px) {
+    section.main {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-height: 750px) {
+    section#swiper {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 2046px) {
+
+    section.main p.title,
+    section.main p.des {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1960px) {
+    section.main p.title {
+        font-size: 4.5em;
+    }
+
+    .sw1 img {
+        width: 550px;
+        height: 600px;
+    }
+
+    section#swiper p.title,
+    .neon p.title {
+        font-size: 4.2em;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 550px;
+    }
+
+    .our_locations .btn {
+        font-size: 18px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(3, 430px);
+        grid-auto-rows: 430px;
+        grid-gap: 50px;
+    }
+
+    .services .work_stages .box .item {
+        width: 470px;
+    }
+
+    .services .work_stages .box {
+        padding: 50px 90px;
+    }
+
+    .services .work_stages .box .item:nth-child(2) {
+        right: 30%;
+    }
+
+    .services .work_stages .box .item p:nth-child(2)::after {
+        font-size: 42px;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 23px;
+    }
+
+    .neon p.title.long {
+        font-size: 1.8em;
+    }
+
+    .gift_wrapper .left img {
+        width: 680px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        font-size: 4.3em;
+    }
+
+    .gift_wrapper .box p.info::after {
+        width: 37px;
+        height: 37px;
+        left: -5.5%;
+    }
+
+    .gift_wrapper .box p.info {
+        margin-left: 40px;
+    }
+
+    section.footer .top .logo {
+        width: 220px;
+        height: 220px;
+    }
+
+    i.close {
+        top: 4%;
+        right: 3%;
+    }
+}
+
+@media only screen and (max-width: 1935px) {
+    #header a {
+        font-size: 24px;
+    }
+
+    #header button {
+        font-size: 18px;
+    }
+
+    #header img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .services .work_stages .box .item:nth-child(2) {
+        right: 25%;
+    }
+}
+
+@media only screen and (max-width: 1820px) {
+    #header a {
+        margin: 0 15px;
+    }
+
+    #header button {
+        padding: 7px 22px;
+    }
+
+    #header img {
+        width: 190px;
+    }
+
+    .sw1 img {
+        width: 520px;
+        height: 580px;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 530px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 280px;
+        height: 280px;
+    }
+
+    p.comment {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .services .work_stages .box .item {
+        width: 450px;
+    }
+
+    .services .work_stages .box .item {
+        font-size: 22px;
+    }
+
+    .services .work_stages .box .item:nth-child(3) {
+        top: 52%;
+        right: 5%;
+    }
+
+    .services .work_stages .box .item:nth-child(1) {
+        top: 7%;
+        left: 3%;
+    }
+
+    .price_container .carts .item p.perk {
+        font-size: 20px;
+    }
+
+    .price_container .carts .item .price {
+        font-size: 3.2em;
+    }
+
+    .price_container .carts .item {
+        width: 470px;
+        margin: 0 50px;
+    }
+
+    .price_container .carts .item .box p,
+    .price_container .carts .item .reservation_btn {
+        font-size: 19px;
+    }
+
+    .price_container .carts .item .box p::before {
+        width: 34px;
+        height: 34px;
+        top: 3px;
+    }
+
+    section.footer .top a {
+        font-size: 22px;
+    }
+
+    .fa-2x {
+        font-size: 2.8em;
+    }
+
+    .fa-3x {
+        font-size: 4.5em;
+    }
+
+    i.close {
+        top: 6%;
+        right: 5%;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input,
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select {
+        padding: 17px;
+        font-size: 18px;
+    }
+
+    ._form .box .quiz form label,
+    #swiper .form_select_loc .box .form_box label {
+        font-size: 18px;
+    }
+
+    ._form .box .quiz .send_btn,
+    #swiper .form_select_loc .box .form_box button {
+        font-size: 20px;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 43px;
+    }
+
+    ._form .box.success {
+        width: 750px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 3.2em;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 31%;
+    }
+}
+
+@media only screen and (max-width: 1782px) {
+    .reflect p.title {
+        font-size: 4em;
+    }
+
+    .neon p.title.long {
+        font-size: 1.6em;
+    }
+
+    .gift_wrapper .left img {
+        width: 640px;
+    }
+
+    .gift_wrapper .box .btm {
+        width: 680px;
+    }
+
+    .gift_wrapper .box {
+        justify-content: space-between;
+    }
+
+    .gift_wrapper .box .btm button {
+        width: 430px;
+        padding: 13px 30px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1750px) {
+    section.main p.title {
+        font-size: 4em;
+    }
+
+    #header span {
+        font-size: 20px;
+    }
+
+    #header img {
+        width: 180px;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 22px;
+    }
+
+    .gift_wrapper .box .right p:first-child {
+        font-size: 18px;
+    }
+
+    .gift_wrapper .box .btm p,
+    .gift_wrapper .box p.info {
+        font-size: 22px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        width: 33px;
+        height: 33px;
+        left: -5%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1720px) {
+    .sw1 img {
+        width: 500px;
+        height: 560px;
+    }
+
+    section#swiper {
+        padding: 110px 20px;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 510px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(3, 400px);
+        grid-auto-rows: 400px;
+        grid-gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 1712px) {
+    #header button {
+        padding: 7px 23px;
+        font-size: 17px;
+    }
+
+    #header span {
+        font-size: 18px;
+    }
+
+    #header img {
+        width: 180px;
+    }
+
+    #header a {
+        font-size: 22px;
+    }
+
+    section.main button {
+        padding: 17px 12px;
+        font-size: 18px;
+    }
+
+    section.main button {
+        margin-top: 45px;
+    }
+
+    .reflect p.title {
+        font-size: 3.8em;
+    }
+
+    p.comment {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .services .work_stages .box .item:nth-child(4) {
+        top: 40%;
+    }
+
+    .services .work_stages .box .item:nth-child(3) {
+        right: 3%;
+    }
+
+    .price_container .carts .item {
+        margin: 0 35px;
+    }
+
+    section.footer .line {
+        height: 3.5px;
+    }
+
+    section.footer .top a {
+        margin: 0 18px;
+    }
+
+    section.footer .top .logo {
+        width: 190px;
+        height: 190px;
+    }
+
+    section.footer .bottom span {
+        font-size: 22px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 1650px) {
+    .price_container .carts .item p.perk {
+        font-size: 19px;
+    }
+
+    .price_container .carts p.dop {
+        font-size: 18px;
+    }
+
+    .price_container .carts .item .additional_services button {
+        font-size: 15px;
+    }
+
+    i.close {
+        right: 3%;
+    }
+}
+
+@media only screen and (max-width: 1627px) {
+    .reflect p.title {
+        font-size: 3.7em;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 1620px) {
+    #header .item.an {
+        padding: 12px;
+    }
+
+    #header img {
+        width: 150px;
+    }
+
+    section.main {
+        margin-top: 60px;
+    }
+
+    section.main p.title {
+        width: 70%;
+        font-size: 4em;
+    }
+
+    section.main p.des {
+        font-size: 32px;
+    }
+
+    section.main button {
+        font-size: 17px;
+    }
+
+    section#swiper p.title,
+    .neon p.title {
+        font-size: 3.7em;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        padding: 15px 25px;
+    }
+
+    .our_locations .btn {
+        font-size: 16px;
+    }
+
+    .services .work_stages .box .item:nth-child(1) {
+        top: 12%;
+    }
+
+    .services .work_stages .box .item:nth-child(2) {
+        right: 22%;
+        top: 12%;
+    }
+
+    section.info {
+        padding: 50px;
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .services .container {
+        grid-template-columns: repeat(3, 380px);
+        grid-auto-rows: 380px;
+        grid-gap: 40px;
+    }
+
+    .services .work_stages .box .item {
+        font-size: 20px;
+    }
+
+    .services .work_stages .box .item p:nth-child(2)::after {
+        font-size: 40px;
+        padding: 7px 25px;
+    }
+
+    .reflect p.title {
+        font-size: 3.5em;
+    }
+
+    .price_container .carts .item .box p,
+    .price_container .carts .item .reservation_btn {
+        font-size: 18px;
+    }
+
+    .price_container .carts .item .box p::before {
+        width: 30px;
+        height: 30px;
+        left: -38px;
+    }
+
+    .price_container .carts .box {
+        margin: 20px 0 20px 30px;
+    }
+
+    .gift_wrapper .left img {
+        width: 610px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        font-size: 4em;
+    }
+
+    .neon p.title.long {
+        font-size: 1.4em;
+    }
+
+    .gift_wrapper .box .btm {
+        width: 648px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 240px;
+        height: 240px;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 40px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input {
+        width: 450px;
+    }
+
+    ._form .box .quiz .send_btn {
+        width: 450px;
+        font-size: 18px;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        font-size: 15px;
+    }
+
+    .fa-3x {
+        font-size: 4em;
+    }
+
+    ._form .box.success {
+        width: 700px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 3em;
+    }
+
+    ._form .box.success p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 28%;
+    }
+}
+
+@media only screen and (max-width: 1570px) {
+    .gift_wrapper .box .btm {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    #header img {
+        width: 130px;
+    }
+
+    section.main p.title {
+        font-size: 3.5em;
+    }
+
+    section.main p.des {
+        font-size: 30px;
+    }
+
+    #header a {
+        font-size: 20px;
+    }
+
+    .sw1 img {
+        width: 460px;
+        height: 510px;
+    }
+
+    section#swiper p.title,
+    .neon p.title {
+        font-size: 3.4em;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 480px;
+        height: 430px;
+    }
+
+    .services .work_stages .box .item:nth-child(5) {
+        bottom: -3%;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 20px;
+    }
+
+    .price_container .carts .item {
+        margin: 0 25px;
+    }
+
+    section.footer .top .logo {
+        width: 165px;
+        height: 165px;
+    }
+
+    .fa-2x {
+        font-size: 2.55em;
+    }
+
+    section.footer .top a {
+        font-size: 20px;
+    }
+
+    section.footer .bottom {
+        width: 570px;
+    }
+}
+
+@media only screen and (max-width: 1540px) {
+    #header a {
+        margin: 0 15px;
+    }
+
+    #header .item.an {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 1530px) {
+    .gift_wrapper .box p.info1 {
+        font-size: 3.5em;
+    }
+
+    .gift_wrapper .box p.info1 {
+        width: 690px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        width: 30px;
+        height: 30px;
+        top: -2px;
+        left: -6%;
+    }
+
+    .gift_wrapper .left img {
+        width: 570px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .services .work_stages .box .item {
+        width: 400px;
+        font-size: 18px;
+        padding: 30px 20px;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        font-size: 14px;
+    }
+
+    ._form .box .quiz {
+        padding: 15px;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width: 1490px) {
+    .sw2 .swiper-slide img {
+        width: 460px;
+        height: 420px;
+    }
+}
+
+@media only screen and (max-width: 1485px) {
+    #header span {
+        font-size: 16px;
+    }
+
+    #header button {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    #header a {
+        font-size: 20px;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 18px;
+    }
+
+    .reflect p.title {
+        font-size: 3.3em;
+    }
+
+    .gift_wrapper .box .btm p,
+    .gift_wrapper .box p.info {
+        font-size: 20px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media only screen and (max-width: 1432px) {
+    .reflect p.title {
+        font-size: 3em;
+    }
+
+    .neon p.title.long {
+        font-size: 1.2em;
+    }
+
+    .gift_wrapper .left img {
+        width: 530px;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    section.main button {
+        padding: 15px 25px;
+    }
+
+    #header img {
+        width: 108px;
+    }
+
+    section.main p.title {
+        font-size: 40px;
+        width: 50%;
+    }
+
+    section.main p.des {
+        font-size: 30px;
+        width: 45%;
+        margin: 20px 0;
+    }
+
+    section.main {
+        margin-top: 0;
+    }
+
+    #header {
+        padding: 30px 0;
+    }
+
+    section.main button {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    section.main p.info {
+        font-size: 15px;
+        width: 50%;
+    }
+
+    #header button {
+        font-size: 13px;
+    }
+
+    #header .item.an {
+        padding: 15px;
+    }
+
+    #header a {
+        margin: 0 10px;
+        font-size: 18px;
+    }
+
+    .sw1 img {
+        width: 400px;
+        height: 400px;
+    }
+
+    section#swiper p.title,
+    .neon p.title {
+        font-size: 45px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        padding: 10px 20px;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 400px;
+        height: 380px;
+    }
+
+    .our_locations .btn {
+        font-size: 14px;
+        margin-top: 50px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(3, 350px);
+        grid-auto-rows: 350px;
+        grid-gap: 20px;
+    }
+
+    .work_stages {
+        margin-top: 100px;
+    }
+
+    .services .work_stages .box {
+        padding: 50px;
+    }
+
+    .services .work_stages .box .item {
+        width: 350px;
+        font-size: 16px;
+    }
+
+    .services .work_stages .box .item p:nth-child(2)::after {
+        font-size: 36px;
+        padding: 5px 20px;
+    }
+
+    .services .work_stages .box .item:nth-child(1) {
+        top: 11%;
+    }
+
+    .services .work_stages .box .item:nth-child(2) {
+        right: 28%;
+        top: 5%;
+    }
+
+    .services .work_stages .box .item:nth-child(3) {
+        top: 55%;
+    }
+
+    .services .work_stages .box .item:nth-child(4) {
+        top: 45%;
+    }
+
+    .services .work_stages .box .item:nth-child(5) {
+        bottom: -7%;
+    }
+
+    p.comment {
+        font-size: 16px;
+    }
+
+    ._form .box.success {
+        width: 600px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 40px;
+    }
+
+    ._form .box.success p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    #swiper .form_select_loc .box .form_box select {
+        width: 400px;
+        margin: 5px 0 10px 0;
+    }
+
+    #swiper .form_select_loc .box {
+        width: 55%;
+    }
+
+    #swiper .form_select_loc .box .form_box input {
+        width: 400px;
+        margin: 5px 0 10px 0;
+        font-size: 17px;
+        padding: 15px;
+    }
+
+    #swiper .form_select_loc .box .form_box button {
+        width: 400px;
+        font-size: 17px;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 26%;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .services .work_stages .box .item {
+        width: 300px;
+    }
+
+    section.info {
+        margin-top: 120px;
+        padding: 30px 50px;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 16px;
+    }
+
+    .reflect {
+        margin-bottom: 150px;
+    }
+
+    .price_container .carts .item .g_loc {
+        font-size: 16px;
+    }
+
+    .price_container .carts .item p.perk {
+        font-size: 18px;
+    }
+
+    .price_container .carts .item .box p::before {
+        width: 24px;
+        height: 24px;
+        left: -30px;
+        top: 7px;
+    }
+
+    .price_container .carts .box {
+        margin: 20px 0 20px 20px;
+    }
+
+    .price_container .carts .item .additional_services button {
+        font-size: 14px;
+    }
+
+    .price_container .carts p.dop {
+        font-size: 16px;
+    }
+
+    .price_container .carts .item .reservation_btn {
+        padding: 10px 30px;
+    }
+
+    .price_container .carts .item {
+        width: 400px;
+        margin: 0 20px;
+    }
+
+    .price_container .carts .item .price {
+        font-size: 50px;
+    }
+
+    .price_container .carts .item .box p,
+    .price_container .carts .item .reservation_btn {
+        font-size: 16px;
+    }
+
+    .gift_wrapper .left img {
+        width: 490px;
+    }
+
+    .gift_wrapper .box .btm p,
+    .gift_wrapper .box p.info,
+    .gift_wrapper .box .right p:first-child {
+        font-size: 16px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        width: 25px;
+        height: 25px;
+        left: -6.5%;
+        top: -4px;
+    }
+
+    .gift_wrapper .box p.info {
+        margin-left: 25px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        font-size: 40px;
+        width: 500px;
+    }
+
+    .gift_wrapper .box .btm button {
+        width: 400px;
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+
+    section.footer .top a {
+        margin: 0px 15px;
+    }
+
+    section.footer .top a,
+    section.footer .bottom span {
+        font-size: 16px;
+    }
+
+    section.footer .top .logo {
+        width: 140px;
+        height: 140px;
+    }
+
+    section.footer .line {
+        height: 2px;
+    }
+
+    .fa-2x {
+        font-size: 2em;
+    }
+
+    section.footer .bottom {
+        width: 450px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .fa-3x {
+        font-size: 3em;
+    }
+
+    i.close {
+        top: 5%;
+        right: 7%;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 36px;
+        margin: 20px 0;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input {
+        width: 400px;
+        height: 50px;
+        font-size: 17px;
+        padding: 10px 15px;
+        margin: 10px 0;
+    }
+
+    ._form .box .quiz .send_btn {
+        width: 400px;
+        font-size: 16px;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+
+    ._form .box .quiz form label {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    #header span {
+        display: none;
+    }
+
+    #header button {
+        margin-right: 0px;
+    }
+
+    .sw1 img {
+        width: 380px;
+        height: 380px;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 380px;
+        height: 350px;
+    }
+
+    section#swiper p.title,
+    .neon p.title {
+        font-size: 42px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(3, 330px);
+        grid-auto-rows: 330px;
+    }
+
+    .price_container .carts .item .additional_services {
+        flex-wrap: wrap;
+    }
+
+    .price_container .carts .item .additional_services button {
+        width: 330px;
+    }
+
+    button.visagiste_btn {
+        margin: 15px 0;
+    }
+
+    .price_container .carts .item .reservation_btn {
+        margin-top: 25px;
+    }
+
+    .price_container .carts .item .price {
+        font-size: 45px;
+    }
+
+    .gift_wrapper {
+        padding: 50px;
+    }
+
+    .gift_wrapper .box .btm {
+        width: 515px;
+    }
+
+    .neon p.title.long {
+        font-size: 40px;
+    }
+
+    i.close {
+        right: 4%;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 34px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input {
+        font-size: 16px;
+    }
+
+    ._form .box .quiz .send_btn {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    .sw2 .swiper-slide img {
+        width: 360px;
+        height: 340px;
+    }
+
+    #swiper .form_select_loc .box .form_box {
+        padding: 30px;
+    }
+
+    #swiper .form_select_loc .box {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .price_container .retouch_wrapper {
+        left: 23%;
+    }
+}
+
+@media only screen and (max-width: 1175px) {
+    section.main {
+        padding: 40px 50px;
+    }
+
+    section.main p.des {
+        font-size: 28px;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 15px;
+    }
+
+    .reflect {
+        margin-bottom: 110px;
+    }
+
+    .reflect p.title {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .gift_wrapper .box .btm {
+        width: 490px;
+    }
+
+    section.footer {
+        padding: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 1135px) {
+    section.main p.title {
+        width: 60%;
+        font-size: 38px;
+    }
+
+    section.main p.info {
+        width: 60%;
+    }
+
+    #header button {
+        padding: 5px 15px;
+    }
+
+    #header .item.an {
+        padding: 10px;
+    }
+
+    section.main button {
+        padding: 12px 20px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(3, 310px);
+        grid-auto-rows: 310px;
+    }
+
+    .reflect p.title {
+        font-size: 36px;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .sw1 img {
+        width: 360px;
+        height: 360px;
+    }
+
+    :root {
+        --swiper-navigation-size: 40px !important;
+    }
+
+    .services .work_stages .box .item:nth-child(2) {
+        right: 20%;
+        top: 10%;
+    }
+
+    .services .work_stages .box .item p:nth-child(2)::after {
+        font-size: 34px;
+        padding: 5px 18px;
+    }
+
+    .services .work_stages .box .item:nth-child(4) {
+        top: 48%;
+        left: 7%;
+    }
+
+    .price_container .carts .item {
+        padding: 20px;
+    }
+
+    p.comment {
+        font-size: 15px;
+    }
+
+    i.close {
+        right: 2%;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input,
+    ._form .box .quiz .send_btn {
+        width: 370px;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        width: 55%;
+    }
+
+    ._form .box .quiz {
+        padding: 0%;
+        width: 750px;
+    }
+
+    #swiper .form_select_loc .box .form_box button,
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select,
+    #swiper .form_select_loc .box .form_box label {
+        font-size: 16px;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 16%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #header a {
+        font-size: 16px;
+    }
+
+    #header img {
+        width: 100px;
+    }
+
+    #header button {
+        font-size: 12px;
+    }
+
+    section.main p.des {
+        font-size: 24px;
+    }
+
+    section.main p.title {
+        font-size: 36px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(3, 300px);
+        grid-auto-rows: 300px;
+    }
+
+    section.info {
+        padding: 30px;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 450px;
+    }
+
+    .gift_wrapper .box .btm button {
+        width: 370px;
+        font-size: 15px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input {
+        height: 40px;
+        width: 350px;
+    }
+
+    ._form .box .quiz .send_btn {
+        width: 350px;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 30px;
+    }
+
+    .fa-3x {
+        font-size: 2.5em;
+    }
+
+    ._form .box .quiz .send_btn {
+        padding: 10px 0;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 1045px) {
+    .m2-in {
+        bottom: 10px;
+    }
+
+    .neon p.title.long {
+        font-size: 38px;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 430px;
+    }
+
+    section.footer .top a {
+        margin: 0px 10px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .reviews_conatiner {
+        height: 650px;
+    }
+
+    .neon.com {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    section.main button {
+        letter-spacing: 2px;
+        padding: 10px 17px;
+        font-size: 12px;
+    }
+
+    section.main p.info {
+        font-size: 13.5px;
+    }
+
+    #header a {
+        margin: 0 5px;
+    }
+
+    .sw1 img {
+        width: 340px;
+        height: 340px;
+    }
+
+    section#swiper p.title,
+    .neon p.title {
+        font-size: 40px;
+    }
+
+    .reflect p.title {
+        font-size: 34px;
+    }
+
+    .m-in_btn {
+        bottom: 8px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(3, 280px);
+        grid-auto-rows: 280px;
+    }
+
+    .services .work_stages .box {
+        background-image: none;
+    }
+
+    .services .work_stages .box .item:nth-child(1) {
+        top: 10%;
+        left: 5%;
+    }
+
+    .services .work_stages .box .item:nth-child(2) {
+        right: 5%;
+        top: 15%;
+    }
+
+    .services .work_stages .box .item:nth-child(5) {
+        bottom: -8%;
+        right: 48%;
+    }
+
+    .price_container .carts {
+        flex-wrap: wrap;
+    }
+
+    .price_container .carts .item:last-child {
+        margin-top: 70px;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 300px;
+        height: 300px;
+    }
+
+    ._form .box .quiz {
+        width: 730px;
+    }
+
+    ._form .box.success {
+        width: 550px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width: 987px) {
+    .neon p.title.long {
+        font-size: 35px;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 400px;
+    }
+
+    .gift_wrapper .box .btm button {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        font-size: 38px;
+    }
+
+    p.comment {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .gift_wrapper .box p.info1 {
+        width: 450px;
+    }
+
+    section.footer .top .logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    section.footer .top a,
+    section.footer .bottom span {
+        font-size: 15px;
+    }
+
+    .fa-2x {
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    #header a {
+        font-size: 14px;
+    }
+
+    #header button {
+        letter-spacing: 0;
+    }
+
+    #header {
+        padding: 25px 0;
+    }
+
+    :root {
+        --swiper-navigation-size: 35px !important;
+    }
+
+    section#swiper p.title,
+    .neon p.title {
+        font-size: 37px;
+    }
+
+    .reflect p.title {
+        font-size: 30px;
+    }
+
+    section.footer .bottom {
+        width: 390px;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 280px;
+        height: 280px;
+    }
+
+    p.mtb20.name.white {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    section#swiper {
+        padding: 110px 10px;
+    }
+
+    :root {
+        --swiper-navigation-size: 30px !important;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(3, 260px);
+        grid-auto-rows: 260px;
+    }
+
+    section.info {
+        padding: 25px;
+    }
+
+    .neon p.title.long {
+        font-size: 32px;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 375px;
+    }
+
+    .gift_wrapper {
+        padding: 30px;
+    }
+
+    .price_container .retouch_wrapper p.title {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    ._form .box .quiz {
+        width: 660px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        font-size: 11px;
+    }
+
+    ._form .box .quiz .title {
+        margin: 10px 0;
+        font-size: 28px;
+    }
+
+    ._form .box .quiz form label {
+        font-size: 14px;
+    }
+
+    .price_container .retouch_wrapper button.save {
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+}
+
+@media only screen and (max-width: 887px) {
+    section.main p.title {
+        font-size: 34px;
+        width: 80%;
+    }
+
+    section.main p.des {
+        font-size: 22px;
+        width: 60%;
+    }
+
+    .price_container .carts .item {
+        margin: 0 10px;
+    }
+
+    section.footer .top .logo {
+        display: none;
+    }
+
+    section.footer .top {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    section.footer .top a {
+        font-size: 17px;
+    }
+
+
+}
+
+@media only screen and (max-width: 870px) {
+
+    section#swiper p.title,
+    .neon p.title:not(.sl) {
+        font-size: 35px;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 350px;
+    }
+
+    .neon p.title.long {
+        font-size: 45px;
+        word-spacing: 10px;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    section.main p.info {
+        width: 80%;
+    }
+
+    #header button {
+        padding: 5px 10px;
+    }
+
+    #header img {
+        width: 80px;
+    }
+
+    section.main button {
+        letter-spacing: 1px;
+        padding: 10px;
+    }
+
+    .sw2 .swiper-slide img,
+    .sw1 img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .services .container {
+        grid-template-columns: repeat(2, 330px);
+        grid-auto-rows: 330px;
+    }
+
+    .item_7 {
+        grid-column: 2/3;
+    }
+
+    .item_5 {
+        grid-column: 1;
+        grid-row: 2/2;
+    }
+
+    .gift_wrapper .box p.info1 {
+        font-size: 35px;
+    }
+
+    .gift_wrapper .box .btm p,
+    .gift_wrapper .box p.info {
+        font-size: 15px;
+    }
+
+    .gift_wrapper .box .right p:first-child {
+        font-size: 13px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        width: 23px;
+        height: 23px;
+        top: -2px;
+    }
+
+    .gift_wrapper .box .btm button {
+        width: 330px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .price_container .carts .cen {
+        width: 350px;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 320px;
+    }
+
+    .gift_wrapper .box .btm button {
+        width: inherit;
+    }
+
+    section.footer {
+        padding: 30px 15px;
+    }
+
+    section.footer .top a {
+        font-size: 16px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .reviews_conatiner {
+        height: 615px;
+    }
+
+    p.comment {
+        font-size: 13px;
+    }
+
+    .reviews_conatiner .box .item p.name {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .reflect p.title {
+        font-size: 28px;
+    }
+
+    .reflect {
+        margin-bottom: 90px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    #header img {
+        display: none;
+    }
+
+    #header {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 804px) {
+    .neon p.title.long {
+        font-size: 42px;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 290px;
+    }
+
+    .gift_wrapper .box .btm button {
+        padding: 8px 0;
+        font-size: 13px;
+    }
+
+    .sw2 .swiper-slide img,
+    .sw1 img {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .our_locations .btn {
+        font-size: 13px;
+    }
+
+    section.info {
+        padding: 25px 20px;
+    }
+
+    span.letter_hide {
+        display: none !important;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 36px;
+    }
+
+    ._form .box.success p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    ._form .box.success {
+        width: 500px;
+        padding: 40px;
+    }
+
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select,
+    #swiper .form_select_loc .box .form_box button {
+        width: 320px;
+        padding: 12px;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 11%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .reflect p.title {
+        font-size: 26px;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 14.5px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        font-size: 32px;
+    }
+
+    .gift_wrapper .box .right p:first-child {
+        font-size: 11px;
+    }
+
+    .gift_wrapper .box .btm p,
+    .gift_wrapper .box p.info {
+        font-size: 13px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        width: 21px;
+        height: 21px;
+        left: -5.5%;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 260px;
+    }
+
+    .neon p.title.long {
+        font-size: 40px;
+    }
+
+    section.footer .top a {
+        display: none;
+    }
+
+    .mb__footer {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    section.main p.des {
+        font-size: 20px;
+    }
+
+    section.main p.title {
+        font-size: 32px;
+    }
+
+    #header button {
+        display: none;
+    }
+
+    #header img {
+        display: block;
+    }
+
+    section.main {
+        padding: 35px;
+    }
+
+    section.main p.info {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .services .work_stages .box .item:nth-child(5) {
+        left: 5%;
+    }
+
+    .services .work_stages .box .item:nth-child(2) {
+        top: 25%;
+    }
+
+    .services .work_stages .box .item:nth-child(3) {
+        top: 65%;
+    }
+
+    .sw2 .swiper-slide img,
+    .sw1 img {
+        width: 220px;
+        height: 220px;
+    }
+
+    ._form .box .quiz {
+        width: 555px;
+    }
+
+    ._form .box {
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+
+    section#swiper p.title,
+    .neon p.title:not(.sl) {
+        font-size: 32px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        padding: 10px 18px;
+    }
+
+    :root {
+        --swiper-navigation-size: 25px !important;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(2, 310px);
+        grid-auto-rows: 310px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        width: 380px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        top: -3px;
+        left: -6.5%;
+    }
+
+    .gift_wrapper .neon {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 739px) {
+    .price_container .carts .item {
+        width: 500px;
+    }
+
+    .price_container .carts .item:nth-child(2) {
+        margin: 50px 0;
+    }
+
+    .price_container .carts .item:last-child {
+        margin-top: 0px;
+    }
+
+    .price_container .carts .item .box p,
+    .price_container .carts .item .reservation_btn {
+        font-size: 18px;
+    }
+
+    .price_container .carts .item .additional_services button {
+        width: 400px;
+        font-size: 16px;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 8%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .reflect p.title {
+        font-size: 24px;
+    }
+
+    .reflect {
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    section#swiper p.title,
+    .neon p.title:not(.sl) {
+        font-size: 30px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        border: 2px solid #03e9f4;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+    .services .work_stages .box .item {
+        position: unset;
+    }
+
+    .services .work_stages .box {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .services .work_stages .box .item {
+        width: 370px;
+        font-size: 18px;
+        margin: 25px 0;
+    }
+
+    .work_stages .neon {
+        margin-bottom: 40px;
+    }
+
+    .sw2 .swiper-slide img,
+    .sw1 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .reviews_conatiner .box .item p.name {
+        font-size: 22px;
+    }
+
+    .reviews_conatiner {
+        height: 620px;
+    }
+
+    .reviews_conatiner .box .item p.comment {
+        font-size: 13px;
+    }
+
+    .price_container .retouch_wrapper p.title {
+        font-size: 33px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    section.main button {
+        font-size: 10px;
+    }
+
+    #header a {
+        font-size: 13px;
+    }
+
+    section.main p.title {
+        font-size: 30px;
+    }
+
+    section.main p.des {
+        font-size: 18px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(2, 285px);
+        grid-auto-rows: 285px;
+    }
+
+    .reflect p.title {
+        font-size: 22px;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 235px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        font-size: 30px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        width: 355px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        width: 20px;
+        height: 20px;
+        top: -2px;
+        left: -7%;
+    }
+
+    .finf {
+        margin-top: 15px;
+    }
+
+    .sw2 .swiper-slide img,
+    .sw1 img {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .fa-3x {
+        font-size: 2em;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 25px;
+    }
+
+    ._form .box .quiz form label {
+        font-size: 13px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input {
+        width: 280px;
+    }
+
+    ._form .box .quiz .send_btn {
+        width: 280px;
+        margin: 10px 0;
+    }
+
+    ._form .box {
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    :root {
+        --swiper-navigation-size: 20px !important;
+    }
+
+    .reviews_conatiner .box .item p.comment {
+        font-size: 12px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    ._form .box .quiz {
+        width: 480px;
+    }
+
+    ._form .box .quiz .send_btn {
+        padding: 7px 0;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input {
+        height: 35px;
+        padding: 0 10px;
+    }
+
+    ._form .box .quiz .send_btn {
+        font-size: 13px;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        width: 85%;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    #header a {
+        font-size: 12px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(2, 260px);
+        grid-auto-rows: 260px;
+    }
+
+    .neon {
+        padding: 15px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        font-size: 28px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        width: 335px;
+    }
+
+    .reviews_conatiner .box .item p.name {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #header .item.an {
+        display: none;
+    }
+
+    #header img {
+        width: 110px;
+    }
+
+    .mb__header,
+    .mb__menu {
+        display: block;
+    }
+
+    #header {
+        justify-content: space-between;
+        padding: 25px;
+    }
+
+    #header span.sp_anim:nth-child(1),
+    #header span.sp_anim:nth-child(3) {
+        height: 5px;
+    }
+
+    #header span.sp_anim:nth-child(2),
+    #header span.sp_anim:nth-child(4) {
+        width: 5px;
+    }
+
+    .neon:not(.reflect) {
+        margin-bottom: 50px;
+    }
+
+    .reflect p.title {
+        font-size: 20px;
+    }
+
+    section.info .some_txt p,
+    .m-in_btn {
+        font-size: 14px;
+    }
+
+    .gift_wrapper {
+        padding: 30px 15px;
+    }
+
+    .gift_wrapper .neon {
+        margin-bottom: 30px;
+    }
+
+    .sw2 .swiper-slide img,
+    .sw1 img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .reviews_conatiner {
+        height: 650px;
+    }
+
+    .neon.com {
+        margin-bottom: 30px;
+    }
+
+    .reviews_conatiner .box .item p.comment {
+        font-size: 11.5px;
+    }
+
+    .reviews_conatiner {
+        height: 580px;
+    }
+
+    .price_container .retouch_wrapper p.title {
+        font-size: 28px;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 10.4%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gift_wrapper .box .btm button {
+        font-size: 12px;
+    }
+
+    .gift_wrapper .box p.info1 {
+        display: none;
+    }
+
+    .gift_wrapper .box p.info {
+        margin-left: 18px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        left: -11%;
+    }
+
+    i.close {
+        top: 3%;
+    }
+
+    ._form .box.success {
+        width: 450px;
+        padding: 30px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 33px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    section.main p.title {
+        font-size: 28px;
+    }
+
+    section.main p.des {
+        font-size: 16px;
+    }
+
+    section.main p.info {
+        width: 90%;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(2, 240px);
+        grid-auto-rows: 240px;
+    }
+
+    .sw2 .swiper-slide img {
+        width: 160px;
+    }
+
+    .price_container .carts .item {
+        width: 450px;
+    }
+
+    .price_container .carts .item .box p,
+    .price_container .carts .item .reservation_btn {
+        font-size: 16px;
+    }
+
+    #swiper .our_locations {
+        margin-top: 120px;
+    }
+
+    ._form .box .quiz {
+        width: 440px;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 7%;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    section.main {
+        padding: 35px 20px;
+    }
+
+    section.main p.title {
+        font-size: 26px;
+    }
+
+    .reflect p.title {
+        font-size: 18px;
+    }
+
+    .reflect {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .mb__menu .links a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+    section.main p.title {
+        width: 100%;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(1, 370px);
+        grid-auto-rows: 370px;
+    }
+
+    .item_2 {
+        grid-column: 1;
+        grid-row: 1/2;
+    }
+
+    .item_7,
+    .item_4,
+    .item_3 {
+        display: none;
+    }
+
+    .sw2 .swiper-slide img,
+    .sw1 img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .price_container .retouch_wrapper {
+        left: 4%;
+    }
+}
+
+
+@media only screen and (max-width: 537px) {
+    .reviews_conatiner .box .item p.comment {
+        font-size: 14px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .reviews_conatiner {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    section#swiper p.title,
+    .neon p.title:not(.sl) {
+        font-size: 28px;
+    }
+
+    section.info {
+        padding: 20px 10px;
+    }
+
+    .m-in_btn {
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .mb__footer .fld a {
+        font-size: 17px;
+    }
+
+    .fa-2x {
+        font-size: 1.7em;
+    }
+
+    section.footer .bottom span {
+        display: none;
+    }
+
+    section.footer .bottom {
+        width: 330px;
+    }
+
+    .price_container .retouch_wrapper .count input,
+    .price_container .retouch_wrapper button.save {
+        width: 350px;
+    }
+
+    .price_container .retouch_wrapper {
+        width: 100%;
+        left: 0%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .reflect p.title {
+        font-size: 24px;
+    }
+
+    .gift_wrapper .box .btm p {
+        font-size: 12px;
+    }
+
+    .gift_wrapper .box .btm button {
+        font-size: 11px;
+        padding: 7px 0;
+    }
+
+    .reviews_conatiner .box .item p.comment {
+        font-size: 13px;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 22px;
+    }
+
+    ._form .box .quiz input::placeholder,
+    .reviews_conatiner input::placeholder {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    ._form .box .quiz form label {
+        font-size: 12px;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        font-size: 10px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input,
+    ._form .box .quiz .send_btn {
+        width: 230px;
+    }
+
+    ._form .box .quiz {
+        width: 380px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 30px;
+    }
+
+    ._form .box.success p:nth-child(2) {
+        font-size: 13px;
+    }
+
+    ._form .box.success {
+        width: 400px;
+        padding: 30px 25px;
+    }
+
+    #swiper .form_select_loc .box .form_box button,
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select,
+    #swiper .form_select_loc .box .form_box label,
+    #swiper .form_select_loc .box .form_box input::placeholder {
+        font-size: 14px;
+    }
+
+    #swiper .form_select_loc .box .form_box button {
+        letter-spacing: 2px;
+    }
+
+    #swiper .form_select_loc .box .form_box {
+        padding: 30px 20px;
+    }
+
+    .price_container .retouch_wrapper p.title {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .services .container {
+        grid-template-columns: repeat(1, 280px);
+        grid-auto-rows: 280px;
+    }
+
+    .sw1 img,
+    .sw2 .swiper-slide img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .neon {
+        padding: 17px;
+    }
+
+    .our_locations .btn {
+        font-size: 12px;
+    }
+
+    .reflect p.title {
+        font-size: 30px;
+    }
+
+    .price_container .carts .item {
+        width: 400px;
+    }
+
+    .price_container .carts .item .reservation_btn {
+        font-size: 14px;
+    }
+
+    .price_container .carts .item p.perk {
+        font-size: 16px;
+    }
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 200px;
+    }
+
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 2px;
+        left: auto;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .neon p.title.long {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .gift_wrapper .left img,
+    .gift_wrapper .box .btm {
+        width: 170px;
+    }
+
+    .sw1 img,
+    .sw2 .swiper-slide img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 165px;
+        height: 165px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 26px;
+    }
+
+    ._form .box.success {
+        width: 350px;
+        padding: 20px;
+    }
+
+    ._form .box.success p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    #swiper .form_select_loc .box .form_box button,
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select,
+    #swiper .form_select_loc .box .form_box label {
+        width: 275px;
+    }
+
+    section#swiper .form_box p.title {
+        font-size: 25px;
+    }
+
+    .price_container .retouch_wrapper {
+        padding: 20px 10px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .reflect p.title {
+        font-size: 28px;
+    }
+
+    .reviews_conatiner .box .item p.name {
+        font-size: 20px;
+    }
+
+    .reviews_conatiner .box .item p.comment {
+        font-size: 13px;
+    }
+
+    .price_container .retouch_wrapper p.title {
+        font-size: 23px;
+    }
+
+    .db {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .services .container {
+        grid-template-columns: repeat(1, 250px);
+        grid-auto-rows: 250px;
+    }
+
+    section.main p.des {
+        width: 80%;
+    }
+
+    section.main {
+        padding: 35px 0 35px 20px;
+    }
+
+    .mb__header {
+        right: 50px;
+    }
+
+    .services .work_stages .box .item {
+        width: 350px;
+        font-size: 17px;
+    }
+
+    .services .work_stages .box .item p:nth-child(2)::after {
+        font-size: 30px;
+    }
+
+    .price_container .carts .item {
+        width: 350px;
+    }
+
+    .price_container .carts .item .price {
+        font-size: 42px;
+    }
+
+    .price_container .carts .item .g_loc,
+    .price_container .carts .item .box p,
+    .price_container .carts .item .additional_services button {
+        font-size: 15px;
+    }
+
+    .neon p.title.tl {
+        font-size: 26px;
+    }
+
+    .neon p.title.long {
+        font-size: 22px;
+    }
+
+    .gift_wrapper .left img {
+        width: 150px;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 20px;
+    }
+
+    ._form .box .quiz form label {
+        font-size: 11px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input,
+    ._form .box .quiz .send_btn {
+        width: 210px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+    ._form .box .quiz .send_btn {
+        font-size: 11px;
+    }
+
+    ._form .box .quiz p.privacy_txt {
+        margin: 5px 0;
+    }
+
+    ._form .box {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    ._form .box .quiz {
+        width: 330px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .reflect p.title {
+        font-size: 26px;
+    }
+
+    .gift_wrapper {
+        padding: 30px 10px;
+    }
+
+    .mb__footer .fld a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .reviews_conatiner .box .item p.comment {
+        font-size: 12px;
+    }
+
+    .price_container .retouch_wrapper .count input,
+    .price_container .retouch_wrapper button.save {
+        width: 300px;
+    }
+
+    .price_container .retouch_wrapper button.save {
+        letter-spacing: 2px;
+        padding: 7px;
+    }
+
+    .price_container .retouch_wrapper p.title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 403px) {
+    .neon p.title.tl {
+        font-size: 24px;
+    }
+
+    .sw1 img,
+    .sw2 .swiper-slide img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 402px) {
+    .reviews_conatiner .box img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .reviews_conatiner .box .item p.comment {
+        font-size: 15px;
+    }
+
+    .reviews_conatiner .box .item p.name {
+        font-size: 24px;
+    }
+
+    ._form .box.success {
+        width: 300px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 20px;
+        margin: 0%;
+        margin-bottom: 15px;
+    }
+
+    ._form .box.success p:nth-child(2) {
+        font-size: 11px;
+        margin: 0;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .services .work_stages .box .item {
+        width: 320px;
+        font-size: 16px;
+    }
+
+    .reflect p.title {
+        font-size: 24px;
+    }
+
+    section.info .some_txt p {
+        font-size: 13.5px;
+    }
+
+    .gift_wrapper .box p.info {
+        font-size: 12px;
+    }
+
+    .gift_wrapper .box .btm p {
+        display: none;
+    }
+
+    .gift_wrapper .box .btm {
+        width: 150px;
+    }
+
+    .gift_wrapper .box .btm button {
+        margin-top: 5px;
+    }
+
+    #swiper .form_select_loc .box .form_box {
+        padding: 20px 10px;
+    }
+
+    #swiper .form_select_loc .box .form_box button,
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select,
+    #swiper .form_select_loc .box .form_box label,
+    #swiper .form_select_loc .box .form_box input::placeholder {
+        font-size: 13px;
+    }
+
+    section#swiper .form_box p.title {
+        font-size: 23px;
+    }
+
+    #swiper .form_select_loc .box {
+        width: 350px;
+    }
+
+    .price_container .retouch_wrapper p.title {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 385px) {
+    .price_container .carts .item {
+        width: 320px;
+    }
+
+    .mb__footer {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    section.main p.title {
+        font-size: 24px;
+    }
+
+    .mb__menu .links a {
+        font-size: 18px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(1, 230px);
+        grid-auto-rows: 230px;
+    }
+
+    .neon.pd {
+        padding: 12px;
+    }
+
+    .neon p.title.long {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .neon p.title.tl {
+        font-size: 20px;
+    }
+
+    .neon p.title.tl {
+        font-size: 22px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        left: -12%;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    section.main p.des {
+        font-size: 14px;
+    }
+
+    section.main p.title {
+        font-size: 22px;
+    }
+
+    .mb__header {
+        right: 30px;
+    }
+
+    #header img {
+        width: 100px;
+    }
+
+    section#swiper p.title,
+    .neon p.title:not(.sl, .tl) {
+        font-size: 26px;
+    }
+
+    .services .work_stages .box .item {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .services .work_stages .box .item p:nth-child(2)::after {
+        padding: 5px 15px;
+        font-size: 26px;
+    }
+
+    .work_stages .neon {
+        margin-bottom: 0px;
+    }
+
+    .reflect p.title {
+        font-size: 22px;
+    }
+
+    .neon p.title.long {
+        font-size: 18px;
+    }
+
+    .gift_wrapper .box p.info::after {
+        width: 18px;
+        height: 18px;
+        left: -11%;
+    }
+
+    .gift_wrapper {
+        display: none;
+    }
+
+    .gift_wrapper .box p.info {
+        margin-left: 15px;
+    }
+
+    .gift_wrapper .left img {
+        width: 130px;
+    }
+
+    .gift_wrapper .box .left {
+        width: 135px;
+    }
+
+    .gift_wrapper .box .btm button {
+        width: 130px;
+        letter-spacing: 0;
+    }
+
+    .neon.com {
+        margin-bottom: 0px;
+    }
+
+    .swiper-button-next {
+        right: 0;
+    }
+
+    .reviews_conatiner {
+        height: 580px;
+    }
+
+    ._form .box .quiz {
+        width: 280px;
+    }
+
+    ._form .box .quiz .send_btn {
+        letter-spacing: 0;
+    }
+
+    section#swiper .form_box p.title {
+        font-size: 20px;
+    }
+
+    #swiper .form_select_loc .box .form_box button,
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select,
+    #swiper .form_select_loc .box .form_box label {
+        width: 255px;
+        padding: 10px;
+    }
+
+    #swiper .form_select_loc .box {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    section.main p.info {
+        width: 96%;
+    }
+
+    section.main {
+        padding: 15px 0 35px 10px;
+    }
+
+
+    section.main p.title {
+        letter-spacing: 2px;
+    }
+
+    .sw1 img,
+    .sw2 .swiper-slide img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .services .container {
+        grid-template-columns: repeat(1, 200px);
+        grid-auto-rows: 200px;
+    }
+
+    .services .work_stages .box .item {
+        width: 280px;
+    }
+
+    .services .work_stages .box .item p:nth-child(2)::after {
+        left: -30px;
+    }
+
+    .reflect p.title {
+        font-size: 20px;
+    }
+
+    .neon p.title.long {
+        font-size: 16px;
+    }
+
+    section.footer .bottom {
+        width: 270px;
+    }
+
+    .mb__footer .fld a {
+        font-size: 15px;
+    }
+
+    .mb__footer {
+        justify-content: space-between;
+    }
+
+    section.footer {
+        padding: 30px 25px;
+    }
+
+    .reviews_conatiner .box .item p.comment {
+        font-size: 14px;
+    }
+
+    ._form .box.success {
+        width: 270px;
+        padding: 20px 15px;
+    }
+
+    ._form .box.success p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    #swiper .form_select_loc .box .form_box button,
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select,
+    #swiper .form_select_loc .box .form_box label,
+    #swiper .form_select_loc .box .form_box input::placeholder {
+        font-size: 12px;
+    }
+
+    #swiper .form_select_loc .box {
+        width: 290px;
+    }
+
+    .price_container .carts .item {
+        width: 300px;
+    }
+
+    .price_container .retouch_wrapper .count input,
+    .price_container .retouch_wrapper button.save {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 317px) {
+    .neon p.title.tl {
+        font-size: 18px;
+    }
+
+    ._form .box .quiz input,
+    .reviews_conatiner input {
+        height: 30px;
+    }
+
+    ._form .box .quiz .title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .reflect p.title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .mb__header .ln .line {
+        height: 2.5px;
+    }
+
+    section.main p.title {
+        letter-spacing: 0;
+    }
+
+    .sw1 img,
+    .sw2 .swiper-slide img {
+        width: 215px;
+        height: 215px;
+    }
+
+    .reviews_conatiner .box img {
+        width: 180px;
+        height: 180px;
+    }
+
+    ._form .box .quiz {
+        width: 260px;
+    }
+
+    section#swiper .form_box p.title {
+        font-size: 18px;
+    }
+
+    #swiper .form_select_loc .box .form_box button,
+    #swiper .form_select_loc .box .form_box input,
+    #swiper .form_select_loc .box .form_box select,
+    #swiper .form_select_loc .box .form_box label {
+        width: 235px;
+    }
+
+    #swiper .form_select_loc .box {
+        width: 270px;
+    }
+
+    .price_container .retouch_wrapper .count input,
+    .price_container .retouch_wrapper button.save {
+        font-size: 11px;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .mb__footer .fld a {
+        font-size: 14px;
+    }
+
+    .fa-2x {
+        font-size: 1.6em;
+    }
+
+    section.footer .bottom {
+        width: 250px;
+    }
+}

@@ -1,0 +1,102 @@
+.reviews_conatiner {
+    margin-top: 150px;
+    background-color: #12162192;
+    padding: 50px 20px;
+    position: relative;
+    height: 750px;
+}
+
+.reviews_conatiner .box img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.reviews_conatiner p.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.reviews_conatiner .box {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews_conatiner .box .item p.name {
+    font-size: 24px;
+}
+
+.reviews_conatiner .box .item {
+    text-align: center;
+}
+
+.reviews_conatiner .box .item:nth-child(1),
+.reviews_conatiner .box .item:nth-child(3) {
+    margin-top: 60px;
+}
+
+section.footer {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 50px;
+    background-color: #121621c9;
+}
+
+section.footer .top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.footer .top .logo {
+    width: 140px;
+    height: 140px;
+    background-image: url(../images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section.footer .top a {
+    font-size: 17px;
+    margin: 0 15px;
+}
+
+section.footer .top a:hover {
+    color: #ffffff9f;
+}
+
+section.footer .line {
+    width: 100%;
+    height: 2px;
+    background-color: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+}
+
+section.footer .bottom {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+section.footer .bottom i {
+    color: #fff;
+    margin: 0 10px;
+    transition: .1s ease;
+    -webkit-transition: .1s ease;
+    -moz-transition: .1s ease;
+    -ms-transition: .1s ease;
+    -o-transition: .1s ease;
+    cursor: pointer;
+}
+
+section.footer .bottom i:hover {
+    color: #ffffff9f;
+}
